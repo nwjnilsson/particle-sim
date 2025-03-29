@@ -14,14 +14,14 @@ the particles can't fit on the screen. Choose input accordingly.
 
 ## Build
 ```
-g++ -o circle-sim3 circle-sim3.cpp -lglfw -lGLU -lGL -lGLEW -fopenmp -O3
+g++ -o particle-sim particle-sim.cpp -lglfw -lGLU -lGL -lGLEW -fopenmp -O3
 ```
 
 ## Usage
 ```
-./circle-sim3 <width> <height> <minRadius> <maxRadius> <spawnLimit> <gravity>
+./particle-sim <width> <height> <minRadius> <maxRadius> <spawnLimit> <gravity>
 ```
 Example:
 ```
-./circle-sim3 2400 1350 1 7 120000 0.05
+./particle-sim 2400 1350 1 7 120000 0.05
 ```
